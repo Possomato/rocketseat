@@ -1,2 +1,2 @@
 # rocketseat
- Cursos da rack
+ Cursos da rocketseat
