@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    color: #E1E1E6;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+}
+
+#meio01{
+    background-color: #121212;
+    width: 50%;
+    height: 100vh;
+    float: left;
+    padding: 50px;    
+}
+
+#meio02{
+    background-color: brown;
+    background-image: url('./assets/read_news.jpg');
+    background-size: cover;
+    background-position: right center;
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+
+#logo{
+    width: 500px;
+    margin: 30px 0px;
+}
+
+article{
+    margin: 60px 0px;
+}
+
+h2{
+    color: #04D361;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+#sub{
+    font-weight: 500;
+    margin: 20px 0px;
+    font-size: 1.45em;
+    font-family: 'League Spartan', sans-serif;
+}
+
+p{
+    font-size: 1.45em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#envio{
+    position: relative;
+}
+
+#insira{
+    font-size: 1.45em;
+}
+
+#email{
+    position: relative;
+    margin: 20px 0px;
+    padding: 10px;
+    width: 980px;
+    height: 49.89px;
+    border-radius: 0px;
+    border: none;
+    font-size: 1.2em;
+}
+
+#barra{
+    background-color: #04D361;
+    height: 50.57px;
+    width: 6px;
+    position: absolute;
+    top: 41.3px;
+}
+
+#send{
+    width: 50px;
+    height: 50.1px;
+    background-image: url('./assets/send.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30px;
+    background-color: #8455e7;
+    border: none;
+    position: absolute;
+    left: 980px;
+    top: 41.8px;
+}
+
+#email, #send{
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.815);
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+}
+
+#send:hover{
+    cursor: pointer;
+    background-color: #8355e74d;
+}
+
+footer{
+    margin-top: 45px;
+    position: relative;
+}
+
+a{
+    display: block;
+    width: 210px;
+    text-decoration: none;
+}
+
+#deixe{
+    background-color: #8455e7;
+    color: #121212;
+    font-family: 'League Spartan', sans-serif;
+    height: 30px;
+    width: 210px;
+    padding: 5px;
+    font-size: 0.8em;
+    vertical-align: center;
+    border-radius: 2px;
+}
+
+#deixe:hover{
+    background-color: #8355e74d;
+}
