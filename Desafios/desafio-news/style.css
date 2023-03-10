@@ -95,7 +95,7 @@ p{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 30px;
-    background-color: #8455e7;
+    background-color: #8355e7b1;
     border: none;
     position: absolute;
     left: 980px;
@@ -115,7 +115,7 @@ input:focus {
 
 #send:hover{
     cursor: pointer;
-    background-color: #8355e74d;
+    background-color: #8455e7;
 }
 
 footer{
@@ -130,7 +130,7 @@ a{
 }
 
 #deixe{
-    background-color: #8455e7;
+    background-color: #8355e7b1;
     color: #121212;
     font-family: 'League Spartan', sans-serif;
     height: 30px;
@@ -142,5 +142,5 @@ a{
 }
 
 #deixe:hover{
-    background-color: #8355e74d;
+    background-color: #8455e7;
 }
