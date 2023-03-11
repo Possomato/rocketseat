@@ -4,19 +4,19 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: white;
+    color: #827e9d;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 div{
-    background-color: rgb(151, 151, 151);
+    background-color: #22202b;
     border: 1px solid red;
 
 }
 
 #container{
     height: 100vh;
-    background-color: greenyellow;
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr 3fr;
     column-gap: 60px;
@@ -34,21 +34,33 @@ div{
 
 #perfil{
     background-color: #32303d;
+    color: #827e9f;
     text-align: center;
-    padding: 40px 20px;
+    padding: 30px 20px;
     margin: 20px;
     border-radius: 20px;
 }
 
 #fotoperfil{
-    width: 120px;
-    height: 120px;
-    margin: auto;
+    width: 150px;
+    height: 150px;
+    margin:  0px auto 30px;
     background-image: url('./assets/foto.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    border: 3px solid #59ff23;
+    border: 2px solid #59ff23;
+}
+
+#nome{
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+#profissao{
+    font-weight: 400;
+    font-size: 0.8em;
 }
 
 #dados{
@@ -71,10 +83,30 @@ div{
     margin-left: 15px;
 }
 
+#tecnologias{
+    background-color: #32303d;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+}
 
+#containertec{
+    background-color: #32303d;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
 
-
-
+.tecnologia{
+    background-color: #ca92b0;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
 
 
 
