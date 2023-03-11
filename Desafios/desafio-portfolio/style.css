@@ -21,6 +21,7 @@ div{
 
 #esquerda{
     display: flex;
+    padding: 30px;
     flex-direction: column;
 }
 
@@ -126,6 +127,7 @@ div{
 #direita{
     display: flex;
     flex-direction: column;
+    padding: 30px;
 }
 
 #projects{
@@ -209,19 +211,29 @@ div{
     font-size: 0.9em;
 }
 
-.bolajs{
+.bola{
     background-color: #32303d;
     display: flex;
     align-items: center;
     justify-content: right;
 }
 
-.bolinha{
-    background-color: yellow;
+.bolinhahtml{
+    background-color: #f67b33;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     border: 2px solid #7f7b9e;
+    margin-right: 5px;
+}
+
+.bolinhacss{
+    background-color: #38b8e6;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #7f7b9e;
+    margin-left: 10px;
     margin-right: 5px;
 }
 
@@ -240,7 +252,7 @@ div{
     margin: 20px;
     border-radius: 20px;
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1fr 5fr;
 }
 
 #espacofoto{
