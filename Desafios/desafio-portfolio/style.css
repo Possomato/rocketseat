@@ -27,11 +27,6 @@ div{
     flex-direction: column;
 }
 
-#direita{
-    display: flex;
-    flex-direction: column;
-}
-
 #perfil{
     background-color: #32303d;
     color: #827e9f;
@@ -108,14 +103,121 @@ div{
     font-size: 0.9em;
 }
 
+#experiencias{
+    background-color: #32303d;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
 
+.tit{
+    margin-bottom: 20px;
+}
 
+.exps{
+    margin-top: 10px;
+    margin-left: 30px;
+}
 
+#educacao{
+    background-color: #32303d;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
 
+#direita{
+    display: flex;
+    flex-direction: column;
+}
 
+#projects{
+    background-color: #32303d;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#my{
+    font-size: 1.5em;
+    font-weight: 700;
+}
 
 #doisproj{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+#proj01{
+    background-color: #32303d;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#proj02{
+    background-color: #32303d;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.pasta{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.nomepasta{
+    margin-left: 15px;
+}
+
+.descricao{
+    text-align: justify;
+    padding: 30px 30px 30px 0px;
+}
+
+.icones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.estrela{
+    display: flex;
+    align-items: center;
+}
+
+.giticon{
+    display: flex;
+    align-items: center;
+}
+
+.iconesquerda{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.cem{
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+.bolajs{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.bolinha{
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #7f7b9e;
+    margin-right: 5px;
+}
