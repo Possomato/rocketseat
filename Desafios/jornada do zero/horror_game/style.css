@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+#back{
+    height: 100%;
+    width: 100%;
+    background-image: url('./background.png');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    padding-top: 160px;
+}
+
+#main{
+    height: 30vh;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+#yellow{
+    color: #FFC700;
+}
+
+h1{
+    font-family: 'Emilys Candy', cursive;
+    font-size: 64px;
+    color: #FFC700;
+}
+
+#description{
+    margin-bottom: 72px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#links{
+    max-width: 371px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #FFC700;
+    color: #040101;
+    font-weight: 600;
+    width: 172px;
+    height: 48px;
+}
+
+#read{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#play{
+    text-decoration: none;
+}
