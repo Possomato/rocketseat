@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center 30%;
+
+}
+
+#main{
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+    padding-top: 200px;
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    color:#151718;
+    font-size: 64px;
+}
+
+#rosa{
+    color: #DB2777;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    color: #2c2e2f;
+    font-size: 20px;
+}

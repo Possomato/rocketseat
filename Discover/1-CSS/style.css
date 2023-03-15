@@ -1,0 +1,38 @@
+/*
+    Definição de pseudo-classes: é um tipo de seletor que irá selecionar um elemento em um estado específico
+
+    - Começam com 2 pontos seguido do nome da pseudo-class
+    ex. :pseudo-class-name
+*/
+
+/* Selecionando elementos com pseudo-classes  */
+
+    /* 
+        :first-child (seleciona o primeiro filho da caixa)
+    */
+
+    ul li:first-child{
+        color: red;
+    }
+
+    /*
+        :nth-of-type(1,2,3..) (seleciona os filhos de acordo com a seleção de números nos parênteses)
+    */
+
+    article p:nth-child(3){
+        color: blue;
+    }
+/* Selecionando com ações do usuário */
+
+    /* :hover (mouse passando por cima)  */
+
+    #testehover:hover{
+        background-color: aqua;
+    }
+
+    /* :focus (é usado quando o elemento recebe digitações ou cliques do usuário) */
+
+    input:focus{
+        background-color: plum;
+        border-color: red;
+    }
