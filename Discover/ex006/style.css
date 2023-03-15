@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+    gap: 1rem;
+}
+
+#coluna01{
+    background-color: blue;
+    flex-basis: 25%;
+
+}
+
+#coluna02{
+    background-color: red;
+    flex: 1;
+}
